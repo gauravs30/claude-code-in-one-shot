@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gaurav Chinchane — DevOps &amp; Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Gaurav Chinchane — DevOps and full-stack developer. Selected GitHub projects in CI/CD, containers, and web development." />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gaurav Chinchane — Portfolio" />
+  <meta property="og:description" content="DevOps and full-stack developer. Selected GitHub projects." />
+  <meta property="og:image" content="assets/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- icon sprite: define each glyph once, reference with <use> below -->
+  <svg width="0" height="0" class="svg-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-github" viewBox="0 0 24 24">
+      <path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58l-.01-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22l-.01 3.29c0 .32.22.7.83.58A12 12 0 0 0 24 12.5C24 5.87 18.63.5 12 .5Z"/>
+    </symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24">
+      <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45C23.2 24 24 23.23 24 22.27V1.73C24 .77 23.2 0 22.22 0Z"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="nav__brand" href="#top">GC</a>
+      <ul class="nav__links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme">
+        <span aria-hidden="true">◐</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero container">
+      <p class="hero__eyebrow">DevOps &amp; Full-Stack Developer</p>
+      <h1 class="hero__title">Gaurav Chinchane</h1>
+      <p class="hero__lede">
+        I build and ship web applications with an eye on the pipeline that carries
+        them to production — CI/CD, containers, and infrastructure. Below is a
+        curated set of my GitHub projects.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#projects">View projects</a>
+        <a class="btn" id="resume-link" href="assets/resume.pdf" hidden>Résumé (PDF)</a>
+      </div>
+      <div class="social-row" role="group" aria-label="Social profiles">
+        <a class="icon-link" href="https://github.com/gauravs30" rel="noopener" target="_blank" aria-label="GitHub profile">
+          <svg class="icon" width="20" height="20" aria-hidden="true"><use href="#i-github" /></svg>
+        </a>
+        <a class="icon-link" href="https://www.linkedin.com/in/gaurav-chinchane" rel="noopener" target="_blank" aria-label="LinkedIn profile">
+          <svg class="icon" width="20" height="20" aria-hidden="true"><use href="#i-linkedin" /></svg>
+        </a>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2 class="section__title">Projects</h2>
+      <p class="section__note" id="projects-meta"></p>
+      <div id="projects-grid" class="projects-grid" aria-live="polite">
+        <p class="projects-grid__loading">Loading projects…</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2 class="section__title">Skills</h2>
+      <div class="skills">
+        <div class="skills__group">
+          <h3>Languages</h3>
+          <ul><li>JavaScript</li><li>C++</li><li>Python</li><li>Bash</li></ul>
+        </div>
+        <div class="skills__group">
+          <h3>DevOps</h3>
+          <ul><li>Docker</li><li>CI/CD</li><li>Nginx</li><li>Linux</li></ul>
+        </div>
+        <div class="skills__group">
+          <h3>Web</h3>
+          <ul><li>HTML</li><li>CSS</li><li>Node.js</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2 class="section__title">Contact</h2>
+      <p class="contact__text">
+        The best way to reach me is email. I'm also on the platforms below.
+      </p>
+      <ul class="contact__links">
+        <li><a href="mailto:gaurav.chinchane25@gmail.com">gaurav.chinchane25@gmail.com</a></li>
+      </ul>
+      <div class="social-row" role="group" aria-label="Social profiles">
+        <a class="icon-link" href="https://github.com/gauravs30" rel="noopener" target="_blank" aria-label="GitHub profile">
+          <svg class="icon" width="20" height="20" aria-hidden="true"><use href="#i-github" /></svg>
+        </a>
+        <a class="icon-link" href="https://www.linkedin.com/in/gaurav-chinchane" rel="noopener" target="_blank" aria-label="LinkedIn profile">
+          <svg class="icon" width="20" height="20" aria-hidden="true"><use href="#i-linkedin" /></svg>
+        </a>
+      </div>
+      <!-- PHASE 2: replace the list above with a <form> posting to /api/contact.
+           The markup hook and js/config.js `features.contactApi` flag are ready. -->
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Gaurav Chinchane. Built with plain HTML/CSS/JS, served by nginx.</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

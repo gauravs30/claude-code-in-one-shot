@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "agent",
+            "statusMessage": "Reviewing changed file (code-reviewer)",
+            "model": "claude-sonnet-5",
+            "timeout": 180,
+            "prompt": "The Write/Edit/MultiEdit tool just modified a file. Its input JSON is:\n\n$ARGUMENTS\n\nTake the file path from `.tool_input.file_path`. Review ONLY that file as a senior code reviewer, following the rubric in `.claude/agents/code-reviewer.md` in this repo — read that file first and apply it exactly (operating rules, priority order, severity levels, and output format).\n\nReply with `skipped: <reason>` for non-code / generated / vendored files, `clean` if the file has no real defects, or the findings list from the rubric. Do not restate the file, do not add praise, do not review anything outside this one file. Be concise."
+          }
+        ]
+      }
+    ]
+  }
+}

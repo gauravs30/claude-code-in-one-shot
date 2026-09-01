@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-08-31T13:50:48.963Z",
+  "owner": "gauravs30",
+  "projects": [
+    {
+      "name": "Research-Project-Pipeline-Detection-App",
+      "full_name": "gauravs30/Research-Project-Pipeline-Detection-App",
+      "description": "CI/CD pipeline demo — one correct app, one deliberately broken, to show pipeline gating.",
+      "url": "https://github.com/gauravs30/Research-Project-Pipeline-Detection-App",
+      "homepage": "",
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "languages": [],
+      "topics": [],
+      "pushed_at": "2023-10-26T08:04:12Z",
+      "archived": false,
+      "tags": [
+        "CI/CD",
+        "DevOps"
+      ],
+      "featured": true
+    },
+    {
+      "name": "CarPoolSystem-DevOps",
+      "full_name": "gauravs30/CarPoolSystem-DevOps",
+      "description": "Carpooling web system built with a DevOps workflow.",
+      "url": "https://github.com/gauravs30/CarPoolSystem-DevOps",
+      "homepage": "",
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "Python",
+        "HTML"
+      ],
+      "topics": [],
+      "pushed_at": "2023-04-18T22:46:51Z",
+      "archived": false,
+      "tags": [
+        "JavaScript",
+        "DevOps"
+      ],
+      "featured": false
+    },
+    {
+      "name": "ResortBooking-CPP",
+      "full_name": "gauravs30/ResortBooking-CPP",
+      "description": "",
+      "url": "https://github.com/gauravs30/ResortBooking-CPP",
+      "homepage": "",
+      "stars": 0,
+      "forks": 0,
+      "language": "HTML",
+      "languages": [
+        "HTML",
+        "Python"
+      ],
+      "topics": [],
+      "pushed_at": "2023-04-28T17:39:23Z",
+      "archived": false,
+      "tags": [
+        "C++"
+      ],
+      "featured": false
+    },
+    {
+      "name": "sample_linux",
+      "full_name": "gauravs30/sample_linux",
+      "description": "",
+      "url": "https://github.com/gauravs30/sample_linux",
+      "homepage": "",
+      "stars": 0,
+      "forks": 0,
+      "language": "HTML",
+      "languages": [
+        "HTML",
+        "Shell"
+      ],
+      "topics": [],
+      "pushed_at": "2023-03-03T17:07:45Z",
+      "archived": false,
+      "tags": [
+        "Linux"
+      ],
+      "featured": false
+    },
+    {
+      "name": "docker",
+      "full_name": "gauravs30/docker",
+      "description": "Docker experiments and reference setups.",
+      "url": "https://github.com/gauravs30/docker",
+      "homepage": "",
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "languages": [],
+      "topics": [],
+      "pushed_at": "2024-05-15T22:53:32Z",
+      "archived": false,
+      "tags": [
+        "Docker"
+      ],
+      "featured": false
+    }
+  ]
+}

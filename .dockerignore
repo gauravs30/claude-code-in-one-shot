@@ -1,0 +1,11 @@
+.git
+.gitignore
+.env
+.env.example
+node_modules
+*.log
+decisions
+tasks.md
+README.md
+plan.md
+.claude

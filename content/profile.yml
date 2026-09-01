@@ -1,0 +1,31 @@
+# ---------------------------------------------------------------------------
+# Site content. Edit freely — no build step needed for this file; the static
+# site reads it indirectly via site/data/*.  (Phase 1: index.html is hand-authored
+# from these values. A later phase may template it.)
+# ---------------------------------------------------------------------------
+
+name: "Gaurav Chinchane"
+tagline: "DevOps & Full-Stack Developer"
+about: >
+  I build and ship web applications with an eye on the pipeline that carries
+  them to production — CI/CD, containers, and infrastructure. This site
+  showcases a curated set of my GitHub projects.
+
+email: "gaurav.chinchane25@gmail.com"
+
+socials:
+  - name: GitHub
+    url: "https://github.com/gauravs30"
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/gaurav-chinchane"
+
+# Optional. Drop a file at site/assets/resume.pdf and this link appears.
+resume: "assets/resume.pdf"
+
+skills:
+  - group: "Languages"
+    items: ["JavaScript", "C++", "Python", "Bash"]
+  - group: "DevOps"
+    items: ["Docker", "CI/CD", "Nginx", "Linux"]
+  - group: "Web"
+    items: ["HTML", "CSS", "Node.js"]

@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# Curated project allowlist. ONLY repos listed here appear on the site.
+#
+# Each entry:
+#   repo:     (required) repo name under github.com/gauravs30, or "owner/name"
+#   featured: (optional) true -> pinned to the top of the grid
+#   blurb:    (optional) overrides the GitHub description
+#   tags:     (optional) extra badges shown on the card
+#   homepage: (optional) live-demo URL (overrides the repo's homepage field)
+#   hide:     (optional) true -> keep the entry but exclude from the site
+#
+# Order in this file = display order (after featured items).
+#
+# TODO(gaurav): replace the list below with the repos you actually want shown.
+# ---------------------------------------------------------------------------
+
+projects:
+  - repo: "Research-Project-Pipeline-Detection-App"
+    featured: true
+    blurb: "CI/CD pipeline demo — one correct app, one deliberately broken, to show pipeline gating."
+    tags: ["CI/CD", "DevOps"]
+
+  - repo: "CarPoolSystem-DevOps"
+    blurb: "Carpooling web system built with a DevOps workflow."
+    tags: ["JavaScript", "DevOps"]
+
+  - repo: "ResortBooking-CPP"
+    tags: ["C++"]
+
+  - repo: "sample_linux"
+    tags: ["Linux"]
+
+  - repo: "docker"
+    blurb: "Docker experiments and reference setups."
+    tags: ["Docker"]

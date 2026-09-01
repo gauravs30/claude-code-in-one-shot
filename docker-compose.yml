@@ -1,0 +1,39 @@
+# Portfolio — Phase 1 topology: nginx (static site) + ngrok (public tunnel).
+#
+#   cp .env.example .env      # then fill in NGROK_AUTHTOKEN + NGROK_DOMAIN
+#   docker compose up --build
+#
+# Local:  http://localhost:8080          (site)
+#         http://localhost:4040          (ngrok request inspector)
+# Public: https://${NGROK_DOMAIN}
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        GITHUB_TOKEN: ${GITHUB_TOKEN:-}
+    image: portfolio-web
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost/healthz"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+
+  ngrok:
+    image: ngrok/ngrok:3
+    command: ["http", "--domain=${NGROK_DOMAIN}", "web:80", "--log=stdout"]
+    environment:
+      NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN}
+    ports:
+      - "4040:4040"   # local request inspector / API
+    depends_on:
+      - web
+    restart: unless-stopped
+
+# Both services share the default compose network, so `ngrok` reaches the
+# site at http://web:80 by service name.
