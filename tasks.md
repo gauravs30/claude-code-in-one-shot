@@ -50,13 +50,15 @@ Related: [`decisions/`](decisions/) for the *why* behind each choice ·
 ### Dev tooling
 - [x] P1-T1 `.claude/agents/code-reviewer.md` — read-only review subagent with rubric
 - [x] P1-T2 `.claude/settings.json` — PostToolUse (`Write|Edit|MultiEdit`) agent hook that runs the reviewer on each changed file (see `decisions/0007`)
-- [ ] P1-T3 Activate the hook: open `/hooks` once (or restart Claude Code) — new settings files aren't watched mid-session
+- [x] P1-T3 Activate the hook: opened `/hooks` / restarted Claude Code — hook is now live
 
 ### Docs & tracking
 - [x] P1-23 `tasks.md` (this file)
 - [x] P1-24 `decisions/` seed ADRs + README
 - [x] P1-25 root `README.md` quickstart
-- [ ] P1-26 (optional) `git init` + first commit
+- [x] P1-26 `git init` + first commit (`6a57682`)
+- [x] P1-28 `projects/CLAUDE.md` — project overview, layout, commands, conventions (commit `91b26f0`);
+        parent `C:\Users\gaura\ClaudeCode\CLAUDE.md` trimmed to a pointer (untracked, outside the repo)
 - [ ] P1-27 (optional) Lighthouse pass ≥ 90 perf/SEO/a11y
 
 ---
