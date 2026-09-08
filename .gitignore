@@ -3,3 +3,8 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+# Locally-installed agent skills (npx skills add)
+.agents/
+.claude/skills/
+skills-lock.json
