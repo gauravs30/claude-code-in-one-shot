@@ -60,6 +60,14 @@ Related: [`decisions/`](decisions/) for the *why* behind each choice ·
 - [x] P1-28 `projects/CLAUDE.md` — project overview, layout, commands, conventions (commit `91b26f0`);
         parent `C:\Users\gaura\ClaudeCode\CLAUDE.md` trimmed to a pointer (untracked, outside the repo)
 - [ ] P1-27 (optional) Lighthouse pass ≥ 90 perf/SEO/a11y
+- [x] P1-29 `README.md` — "what is this repo" + architecture/seams overview,
+        consolidated content workflow, troubleshooting section (issue #1)
+- [x] P1-30 Add root `LICENSE` (MIT) (issue #1)
+- [~] P1-31 Expand `content/projects.yml` with 3 more curated repos
+        (`terra-ansible-multi-env`, `jenkins-shared-library`,
+        `github-for-devops-workshop`) (issue #1); `npm run fetch` still needs a
+        run with real GitHub API access to regenerate `site/data/projects.json`
+        — see PR for issue #1
 
 ---
 
