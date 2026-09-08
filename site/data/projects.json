@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T13:50:48.963Z",
+  "generatedAt": "2026-09-08T16:41:24.723Z",
   "owner": "gauravs30",
   "projects": [
     {
@@ -102,6 +102,69 @@
       "archived": false,
       "tags": [
         "Docker"
+      ],
+      "featured": false
+    },
+    {
+      "name": "terra-ansible-multi-env",
+      "full_name": "gauravs30/terra-ansible-multi-env",
+      "description": "Terraform + Ansible multi-environment infrastructure setup.",
+      "url": "https://github.com/gauravs30/terra-ansible-multi-env",
+      "homepage": "",
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "languages": [],
+      "topics": [],
+      "pushed_at": "2025-01-02T17:07:53Z",
+      "archived": false,
+      "tags": [
+        "Terraform",
+        "Ansible",
+        "IaC"
+      ],
+      "featured": false
+    },
+    {
+      "name": "jenkins-shared-library",
+      "full_name": "gauravs30/jenkins-shared-library",
+      "description": "Reusable Jenkins pipeline shared library.",
+      "url": "https://github.com/gauravs30/jenkins-shared-library",
+      "homepage": "",
+      "stars": 0,
+      "forks": 0,
+      "language": "Groovy",
+      "languages": [
+        "Groovy"
+      ],
+      "topics": [],
+      "pushed_at": "2024-11-15T18:24:15Z",
+      "archived": false,
+      "tags": [
+        "Jenkins",
+        "Groovy",
+        "CI/CD"
+      ],
+      "featured": false
+    },
+    {
+      "name": "github-for-devops-workshop",
+      "full_name": "gauravs30/github-for-devops-workshop",
+      "description": "GitHub Actions / DevOps workshop material.",
+      "url": "https://github.com/gauravs30/github-for-devops-workshop",
+      "homepage": "",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "languages": [
+        "Python"
+      ],
+      "topics": [],
+      "pushed_at": "2024-09-14T16:16:51Z",
+      "archived": false,
+      "tags": [
+        "GitHub Actions",
+        "DevOps"
       ],
       "featured": false
     }
