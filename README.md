@@ -1,5 +1,7 @@
 # Portfolio
 
+[![Repo](https://img.shields.io/badge/GitHub-claude--code--in--one--shot-181717?logo=github)](https://github.com/gauravs30/claude-code-in-one-shot)
+
 Personal portfolio for [github.com/gauravs30](https://github.com/gauravs30).
 Phase 1 is a static site served by **nginx** and exposed via **ngrok**, all in
 Docker. Built to grow a backend + database in later phases without a rewrite —
