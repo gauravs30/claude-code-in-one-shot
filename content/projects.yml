@@ -33,3 +33,15 @@ projects:
   - repo: "docker"
     blurb: "Docker experiments and reference setups."
     tags: ["Docker"]
+
+  - repo: "terra-ansible-multi-env"
+    blurb: "Terraform + Ansible multi-environment infrastructure setup."
+    tags: ["Terraform", "Ansible", "IaC"]
+
+  - repo: "jenkins-shared-library"
+    blurb: "Reusable Jenkins pipeline shared library."
+    tags: ["Jenkins", "Groovy", "CI/CD"]
+
+  - repo: "github-for-devops-workshop"
+    blurb: "GitHub Actions / DevOps workshop material."
+    tags: ["GitHub Actions", "DevOps"]
